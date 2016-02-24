@@ -207,16 +207,14 @@
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.webservice</artifactId>
-			<exclusions>
-				<exclusion>
-					<artifactId>com.idega.block.school</artifactId>
-					<groupId>com.idega.block.egov</groupId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.egov</groupId>
 			<artifactId>is.idega.block.nationalregister</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.idega.block.egov</groupId>
+			<artifactId>is.idega.idegaweb.egov.accounting</artifactId>
 		</dependency>
 		
 		<!-- Solution -->
